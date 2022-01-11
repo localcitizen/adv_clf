@@ -1,0 +1,8 @@
+main:
+  test:
+    paths:
+      model: "lib/checkpoints/"
+      scenarios: "tests/unit_tests/"
+    checkpoints:
+      model: "advertisement_classifier_20211229_183819.pickle"
+      scenarios: "test_scenarios.json"
